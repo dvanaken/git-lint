@@ -46,7 +46,8 @@ then
     sudo ln -sf /usr/bin/gem2.3 /usr/bin/gem
 fi
 
-sudo gem install rake rubocop ruby-lint scss_lint
+# scss_lint causes travis to fail
+sudo gem install rake rubocop ruby-lint
 
 # Install latest node
 curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
