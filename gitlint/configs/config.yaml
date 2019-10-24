@@ -42,16 +42,16 @@ csslint:
 # SCSS
 # Sample output:
 # /path_to/error.scss:2 [W] `0px` should be written without units as `0`
-#scss:
-#  extensions:
-#    - .scss
-#  command: scss-lint
-#  filter: >-
-#    ^{filename}:(?P<line>{lines})(:(?P<column>\d+))?
-#    \[(?P<severity>.+)\]( (?P<message_id>.+):)?
-#    (?P<message>.+)
-#  installation: >-
-#    gem install scss-lint or go to https://github.com/causes/scss-lint
+# scss:
+#   extensions:
+#     - .scss
+#   command: scss-lint
+#   filter: >-
+#     ^{filename}:(?P<line>{lines})(:(?P<column>\d+))?
+#     \[(?P<severity>.+)\]( (?P<message_id>.+):)?
+#     (?P<message>.+)
+#   installation: >-
+#     gem install scss-lint or go to https://github.com/causes/scss-lint
 
 # Javascript
 # Sample output:
